@@ -3,7 +3,7 @@
 
 # Any compiler should do
 CC=cc
-CFLAGS=-DCOLOR -O 
+CFLAGS=-DCOLOR -O -std=c99 -Werror -D_DEFAULT_SOURCE
 
 # You probably don't need these
 # CFLAGS=-DCOLOR -g -O -Dlint -Wall  -Wno-long-long 

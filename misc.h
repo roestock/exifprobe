@@ -54,4 +54,6 @@
 #define SRATIONAL   10
 #define DOUBLE      12
 
+extern char * strdup_value(struct ifd_entry *entry, FILE *inptr, unsigned long fileoffset_base);
+
 #endif  /* MISC_INCLUDED */
